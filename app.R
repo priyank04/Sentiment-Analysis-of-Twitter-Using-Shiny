@@ -43,10 +43,10 @@ server <- function(input, output) {
   library(ROAuth)
   library(twitteR)
   
-  consumer_key <-"lqmB2YTEgYUecPmboxhNbSfaj"
-  consumer_secret <- "Lb15UOk6ugMbh4VReJH6EfwRQ2ibJkfQN9hsnwfJwQ32Ei7lmv"
-  access_token<-"1359034926-Tf5DV5RFTpCGY21LMM1pM0ZpoAQJuBtM3U4YZC1"
-  access_secret <- "LzaicjUJE4139MS0KxUKV71StOfPgp9je4kwr13CpCv7N"
+  consumer_key <-"Enter-your-consumer-keys"
+  consumer_secret <- "Enter-your-consumer-secret"
+  access_token<-"Enter-your-access-token"
+  access_secret <- "Enter-your-access-secret"
   
   setup_twitter_oauth(consumer_key ,consumer_secret, access_token,  access_secret )
   positivewords=readLines("positive_words.txt")
